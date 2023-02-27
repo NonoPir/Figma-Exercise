@@ -1,0 +1,416 @@
+@import url(https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display&family=Lexend+Deca&family=Outfit&family=Roboto:wght@400;500;700&display=swap);
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior:smooth
+}
+body{
+    font-family:Roboto;
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+}
+.first_page{
+    width: 1600px;
+    height: 788px;
+    background-image: url(./img/bg-image.png);
+    color: white;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-left: 502px;
+}
+.header p{
+    margin-top: 38px;
+}
+.header img{
+    margin-top: 25px;
+}
+.about{
+    border-bottom: solid;
+    border-width: 1px;
+    height:59px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+}
+.content h1{
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 4.5px;
+    text-align: center;
+    margin-top: 161px;
+}
+.content p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    margin-left: 548px;
+    width: 504px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.content button{
+    height: 46px;
+    width: 184px;
+    margin-left: 708px;
+    margin-top: 30px;
+    background:#00AFDB;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.yt{
+    border:solid;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 1px;
+    margin-left:30px;
+}
+.fb{
+    border:solid;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 1px;
+    margin-left:30px;
+}
+.insta{
+    margin-left:30px;
+}
+.footer{
+    margin-left: 715px;
+    margin-top: 183px;
+}
+.second_page{
+    width: 1600px;
+    height: 842px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.content2{
+    margin-top: 295px;
+}
+.content2 h2{
+    width:367px;
+    height:57px;
+    margin-left: 269px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+}
+.content2 p{
+    height: 80px;
+    width: 407px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 269px;
+    margin-top: 20px;
+}
+.content2 button{
+    height: 46px;
+    width: 184px;
+    margin-left: 269px;
+    margin-top: 30px;
+    background:#00AFDB;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.img{
+    margin-top: 120px;
+    margin-left: 248px;
+}
+.third_page{
+    height: 504px;
+    width: 1600px;
+    background:#F5F6F7;
+    display: flex;
+    flex-direction: row;
+}
+.community h3{
+    width:160px;
+    height: 20px;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #373737;
+    margin-left: 338px;
+    margin-top: 20px;
+}
+.community p{
+    width: 298px;
+    height: 80px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: 269px;
+    margin-top: 10px;
+}
+.community img{
+    margin-top: 155px;
+    margin-left: 396px;
+}
+.pics{
+    margin-top: 90px;
+    margin-left: 139px;
+}
+.fourth_page{
+    width: 1600px;
+    height: 842px;
+    background-color: white;
+    display: flex;
+}
+.fourth_page img{
+    margin-top: 120px;
+    margin-left: 269px;
+}
+.implement{
+    margin-top: 319px;
+    margin-left: 139px;
+}
+.implement h2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #373737;
+}
+.implement p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 407px;
+    height: 60px;
+    margin-top: 20px;
+}
+.implement button{
+    height: 46px;
+    width: 180px;
+    background:#00AFDB;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-right: 139px;
+    margin-top: 30px;
+}
+.fifth_page{
+    width: 1600px;
+    height: 464px;
+    background-image:url(./img/background2.png);
+}
+.sign h2{
+    margin-left: 610px;
+    margin-top: 200px;
+    color:white ;
+    width: 500px;
+}
+.sign h2{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.sign input{
+    height: 40px;
+    outline: none;
+    margin-left:595px;
+    height: 46px;
+    width: 316px;
+    margin-top: 30px;
+    padding-left: 24px;
+    border: none;
+}
+::placeholder{
+    font-weight: 400px;
+    font-size: 14px;
+}
+.tick{
+    width: 66px;
+    height: 46px;
+    background:#00AFDB;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email{
+    display: flex;
+}
+.sixth_page{
+    width: 1600px;
+    height: 464px;
+    background-color:#F5F6F7;
+}
+.download h2{
+    margin-left: 675PX;
+    margin-top: 120px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 1px;
+    color: #373737;
+}
+
+.download p{
+    margin-top: 20px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.store{
+    display: flex;
+    margin-left: 599px;
+    margin-top: 30px;
+}
+.android button{
+    margin-left: 89px;
+    height: 46px;
+    width: 127px;
+    background:#00AFDB;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+   
+    
+}
+.apple button{
+    height: 46px;
+    width: 127px;
+    background:#00AFDB;
+    color:#FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.apple{
+    display: flex;
+}
+.apple_icon{
+    width: 59px;
+    height: 46px;
+    background-color:#009CC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.android_icon{
+    width: 59px;
+    height: 46px;
+    background-color:#009CC2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.android{
+    display: flex;
+}
+.seventh_page{
+    width:1600px;
+    height:185px;
+    background-color: #000000;
+    color: white;
+}
+.footer2{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer2 p{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    margin-top: 73px;
+    margin-left: 160px;
+}
+.footer2 img{
+    margin-top:60px;
+}
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
